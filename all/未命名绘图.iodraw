@@ -10,7 +10,7 @@
             <mxPoint x="410" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SI8EzLI27jG2sSwkv1bi-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="SI8EzLI27jG2sSwkv1bi-7" value="初始化参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="200" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
