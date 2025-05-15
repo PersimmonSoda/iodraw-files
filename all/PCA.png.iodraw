@@ -1,0 +1,55 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="第 1 页" id="suFucWGOA05oVzlyDImk">
+    <mxGraphModel dx="562" dy="1166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SI8EzLI27jG2sSwkv1bi-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="SI8EzLI27jG2sSwkv1bi-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="180" as="sourcePoint" />
+            <mxPoint x="410" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SI8EzLI27jG2sSwkv1bi-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SI8EzLI27jG2sSwkv1bi-7" target="SI8EzLI27jG2sSwkv1bi-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SI8EzLI27jG2sSwkv1bi-7" value="初始化参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SI8EzLI27jG2sSwkv1bi-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SI8EzLI27jG2sSwkv1bi-8" target="SI8EzLI27jG2sSwkv1bi-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SI8EzLI27jG2sSwkv1bi-8" value="层级降维架构" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SI8EzLI27jG2sSwkv1bi-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SI8EzLI27jG2sSwkv1bi-10" target="SI8EzLI27jG2sSwkv1bi-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SI8EzLI27jG2sSwkv1bi-10" value="PCA压缩（每个参数90000维度→5维度）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="430" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SI8EzLI27jG2sSwkv1bi-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SI8EzLI27jG2sSwkv1bi-12" target="SI8EzLI27jG2sSwkv1bi-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SI8EzLI27jG2sSwkv1bi-12" value="合并特征空间（9×5→45维度）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="550" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SI8EzLI27jG2sSwkv1bi-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SI8EzLI27jG2sSwkv1bi-14" target="SI8EzLI27jG2sSwkv1bi-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SI8EzLI27jG2sSwkv1bi-14" value="标准化处理" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SI8EzLI27jG2sSwkv1bi-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SI8EzLI27jG2sSwkv1bi-16" target="SI8EzLI27jG2sSwkv1bi-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SI8EzLI27jG2sSwkv1bi-16" value="5折交叉验证" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SI8EzLI27jG2sSwkv1bi-19" value="上述LDA降维流程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
