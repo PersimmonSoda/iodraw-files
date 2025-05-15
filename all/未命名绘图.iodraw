@@ -6,7 +6,7 @@
         <mxCell id="1" parent="0" />
         <mxCell id="SI8EzLI27jG2sSwkv1bi-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380" y="390" as="sourcePoint" />
+            <mxPoint x="410" y="180" as="sourcePoint" />
             <mxPoint x="410" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
