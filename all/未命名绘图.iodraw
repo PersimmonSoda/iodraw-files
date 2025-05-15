@@ -22,8 +22,20 @@
         <mxCell id="SI8EzLI27jG2sSwkv1bi-8" value="层级降维架构" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="340" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="SI8EzLI27jG2sSwkv1bi-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SI8EzLI27jG2sSwkv1bi-10" target="SI8EzLI27jG2sSwkv1bi-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="SI8EzLI27jG2sSwkv1bi-10" value="PCA压缩（每个参数90000维度→5维度）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SI8EzLI27jG2sSwkv1bi-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SI8EzLI27jG2sSwkv1bi-12" target="SI8EzLI27jG2sSwkv1bi-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SI8EzLI27jG2sSwkv1bi-12" value="合并特征空间（9×5→45维度）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SI8EzLI27jG2sSwkv1bi-14" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="760" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
