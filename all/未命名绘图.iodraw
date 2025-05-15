@@ -10,8 +10,20 @@
             <mxPoint x="410" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="SI8EzLI27jG2sSwkv1bi-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SI8EzLI27jG2sSwkv1bi-7" target="SI8EzLI27jG2sSwkv1bi-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="SI8EzLI27jG2sSwkv1bi-7" value="初始化参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SI8EzLI27jG2sSwkv1bi-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SI8EzLI27jG2sSwkv1bi-8" target="SI8EzLI27jG2sSwkv1bi-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SI8EzLI27jG2sSwkv1bi-8" value="层级降维架构" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SI8EzLI27jG2sSwkv1bi-10" value="层级降维架构" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="480" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
